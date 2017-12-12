@@ -1,0 +1,8 @@
+Situate en  C:\Windows\System32\drivers\etc, en el archivo hots, abrelo y copia esas dos lineas al final del archivo:
+
+192.168.33.10    www.sitio1.com sitio1.com
+192.168.33.10	   www.sitio2.com sitio2.com
+
+Una vez copiados ve a la consola de cygwin y pon el comando a continuacion:
+
+vagrant up
